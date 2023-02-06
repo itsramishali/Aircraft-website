@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.footer{
+    text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tittle{
+    font-family: 'gotham-black';
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.firstInput{
+    margin-right: 10px;
+    width: 20%;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.12);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lastInput{
+    margin-right: 10px;
+    width: 20%;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.12);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
 }
-
-.App-link {
-  color: #61dafb;
+.emailInput{
+    margin-right: 10px;
+    width: 20%;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.12);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonInput{
+    width: 12%;
+    padding: 12px;
+    background: #fff;
+    border: 2px solid;
+    font-size: 15px;
+    font-family: "eurostile-condensed";
+}
+.buttonInput:hover{
+    background-color: black;
+    color: white;
+}
+.p{
+    margin: 28px 0;
+    padding: 0;
+    font-size: 13px !important;
+    line-height: normal;
+    color: #525252;
+    letter-spacing: 1px;
+}
+.mail{
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.navFooter{
+    color: black;
+    font: 1em sans-serif;
+    font-size: 18px !important;
+    letter-spacing: 2px;
+}
+.navFooter:hover{
+    color: #525252;
 }
