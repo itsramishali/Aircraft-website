@@ -70,3 +70,285 @@
 .navFooter:hover{
     color: #525252;
 }
+
+/* ------About */
+.About{
+    overflow: hidden;
+    margin: 80px;
+}
+.tittle-about{
+    text-align: center;
+    padding-top: 20px;
+    font: small-caps bold 44px/1 sans-serif;
+}
+.img-tittle {
+    /* color: white; */
+    position: absolute;
+    font-size: 3.8em;
+    transform: translate(20px, 50px);
+    font-family: "Playfair Display",serif;
+  }
+  .button-img1{
+    transform: translate(490px, 280px);
+    background-color:#564D44;
+    color: #fff;
+    width: 15%;
+  }
+  .desciritionText-about{
+    font-family: 'gotham-black';
+    font-size: 38px !important;
+    line-height: normal;
+    color: #525252;
+    letter-spacing: 1px;
+  }
+  .descirition{
+    margin-top: 80px;
+  }
+  .desciritionText-about3{
+    margin-top: 80px;
+    text-align: center;
+    font: small-caps bold 35px/5 sans-serif;
+  }
+ .desciritionColor-about{
+background-color: #E7E9EB;
+margin: 80px;
+ }
+ .descirition5-about{
+    text-align: center;
+    font: small-caps bold 35px/5 sans-serif;
+ }
+
+ /* -----Inquire */
+ .Inquire{
+    overflow: hidden;
+    margin: 80px;
+ }
+ .tittle-Inquire{
+    text-align: center;
+    padding-top: 20px;
+    font: small-caps bold 44px/1 sans-serif;  
+ }
+ .phone-inquire{
+    padding-top: 50px;
+    font: small-caps bold 20px/1 sans-serif;
+ }
+ .phoneNo-inquire{
+    font: italic small-caps bold 18px/0 cursive;
+ }
+ .email-inquire{
+    padding-top: 50px;
+    font: small-caps bold 20px/1 sans-serif;
+ }
+ .emailName-inquire{
+    font: italic small-caps bold 18px/0 cursive;
+ }
+ .Immediate{
+    margin-top: 90px;
+    font-family: "Playfair Display",serif;
+ }
+ .headinng-Inquire{
+    text-align: center;
+    padding-top: 50px;
+    font: small-caps bold 44px/1 sans-serif;    
+ }
+ .inputs-Inquire{
+    border: 2px solid black;
+ }
+.firstInput-Inquire{
+    margin-right: 10px;
+    width: 40%;
+    padding: 1em;
+    margin-left: 40px;
+    background: #fff;
+    border: 1px solid black;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+}
+.lastInput-Inquire{
+    margin-right: 10px;
+    width: 40%;
+    padding: 1em;
+    margin-left: 50px;
+    background: #fff;
+    border: 1px solid black;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+    margin-bottom:40px ;
+}
+.emailInput-Inquire{
+    margin-right: 10px;
+    width: 85%;
+    padding: 1em;
+    margin-left: 43px;
+    background: #fff;
+    border: 1px solid black;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+}
+.messageInput-Inquire{
+    margin-right: 10px;
+    width: 85%;
+    padding: 5em;
+    margin-left: 50px;
+    background: #fff;
+    border: 1px solid black;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+    margin-bottom:40px ;
+}
+.emailInput-Inquire{
+    margin-right: 10px;
+    width: 85%;
+    padding: 1em;
+    margin-left: 43px;
+    background: #fff;
+    border: 1px solid black;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+}
+.name-Inquire{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: gray;
+    font: small-caps bold 24px sans-serif;   
+}
+.reached-inquire{
+    font: small-caps bold 20px/1 sans-serif;
+    margin-left: 40px;
+}
+.button-inquire{
+text-align: center;
+padding-top: 30px;
+padding-bottom: 20px;
+
+
+}
+.buttonin-inquire:hover{
+    background-color: black;
+    color: white;
+}
+
+.buttonin-inquire{
+    width: 12%;
+    padding: 12px;
+    background: #fff;
+    border: 2px solid;
+    font-size: 15px;
+    font-family: "eurostile-condensed";
+}
+.headinng0-Inquire{
+    text-align: center;
+    padding-top: 30px;
+    font: small-caps bold 24px/1 sans-serif;    
+}
+.firstForm-inquire{
+    background-color: #FCFCFC;
+}
+
+
+/* --------membership */
+.Membership{
+    overflow: hidden;
+    margin: 80px;
+}
+.button-img2{
+    transform: translate(500px, 100px);
+    background-color: rgb(97, 180, 228);
+    color: rgb(240, 244, 247);
+    width: 15%;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+  }
+  .desciritionText-Membership{
+    font-family: 'gotham-black';
+    font-size: 87px !important;
+    line-height: normal;
+    color: #525252;
+    /* letter-spacing: 2px; */
+  }
+  .desciritionTextb-Membership{
+    border: 2px solid;
+    width: 50%;
+    height: 500px;
+  }
+  .hometown{
+    padding-top: 50px;
+    padding-left: 35px;
+    font: small-caps bold 20px/1 sans-serif; 
+    padding-bottom: 20px;
+  }
+  .countryInput{
+    margin-right: 10px;
+    width: 83%;
+    padding: 3px;
+    background: #fff;
+    border: 1px solid black;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+  }
+  .emptyInput{
+    margin-right: 10px;
+    width: 85%;
+    padding: 3px;
+    margin-left: 43px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid black;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+  }
+.circle-membership{
+ border-radius: 25px;
+ border:2px #525252;
+}
+
+/* Destination */
+.button-img3{
+    transform: translate(580px, 50px);
+    background-color: #3b3432;
+    color: rgb(240, 244, 247);
+    width: 15%;
+}
+.Destination{
+    overflow: hidden;
+}
+.article-destination{
+margin-left: 150px;
+margin-top: 30px;
+}
+.all-article{
+    text-align: center;
+    background-color: #DDE3E5;
+}
+
+/* footer */
+
+  footer.page-footer {
+    bottom: 0;
+    color: #fff;
+  }
+
+  
+  .mdb-color {
+    background-color: #181818 !important;
+  }
+  
