@@ -1,0 +1,37 @@
+    *{
+        overflow-x: hidden;
+    }
+.round-edit{
+    width: 98%;
+    margin: auto;
+    margin-top: 50px;
+    padding-top:50px;
+    padding-bottom:50px;
+    
+}
+.round-img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    clear: both;
+
+}
+.video-edit{
+    width: 90%;
+    margin: auto;
+}
+/* .book-part{
+    margin: auto;
+    width: 80%;
+} */
+/* .b-Input{
+    padding: 0.5em;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.12);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+}  */
+/* .edit-margin{
+    margin-top: 30px;
+} */
