@@ -1,6 +1,7 @@
 import React from "react";
 import './Offers.css';
 
+
 function Offers() {
     return (
         <>
@@ -101,6 +102,7 @@ function Offers() {
                     </tbody>
                 </table>
             </div>
+     
         </>
     );
 }

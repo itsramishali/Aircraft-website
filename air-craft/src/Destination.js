@@ -1,11 +1,10 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Navbar";
-
+import Footer from "./Footer"
 function Destination() {
     return(
         <>
-<Navbar />
+
 <div className="Destination">
 <h1 className='tittle-about pb-5'><u><b>Destination</b></u></h1>
 <div>
@@ -17,7 +16,7 @@ function Destination() {
             height="600"
           />
           <div className="carousel-caption">
-            <button className="button-img3">Book Now</button>
+            {/* <button className="button-img3">Book Now</button> */}
           </div>
         </div>
         <div className="all-article">
@@ -78,6 +77,7 @@ function Destination() {
         </div>
 </div>
 </div>
+<Footer />
         </>
     )
 }

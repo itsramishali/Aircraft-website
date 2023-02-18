@@ -33,19 +33,22 @@ function Navbar() {
                                 </ul>
                             </li>
                             <li className="nav-item edit">
-                                <Link className="nav-link active" aria-current="page" to="/Air">About Us</Link>
+                                <Link className="nav-link active" aria-current="page" to="/About us">About Us</Link>
                             </li>
                             <li className="nav-item edit">
                                 <Link className="nav-link active" aria-current="page" to="/Contact">Contact Us</Link>
                             </li>
                             <li className="nav-item edit">
-                                <Link className="nav-link active" aria-current="page" to="#">Membership</Link>
+                                <Link className="nav-link active" aria-current="page" to="/Membership">Membership</Link>
                             </li>
                             <li className="nav-item edit">
-                                <Link className="nav-link active" aria-current="page" to="#">Destinations</Link>
+                                <Link className="nav-link active" aria-current="page" to="Destination">Destinations</Link>
                             </li>
                             <li className="nav-item edit">
                                 <Link className="nav-link active" aria-current="page" to="/Offers">Offers</Link>
+                            </li>
+                            <li className="nav-item edit">
+                                <Link className="nav-link active" aria-current="page" to="/Inquire">Inquire</Link>
                             </li>
                         </ul>
                         </form>

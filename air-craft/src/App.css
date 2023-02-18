@@ -1,10 +1,10 @@
 *{
     overflow-x: hidden;
 }
-p{
+/* p{
     text-align: justify;
     padding: 0px 10px 10px 10px ;
-}
+} */
 .row-edit{
     justify-content: center;
     margin: auto;
@@ -125,7 +125,25 @@ label{
 /* ------About */
 .About{
     overflow: hidden;
+    /* margin: 80px; */
+}
+.margin{
     margin: 80px;
+}
+.borber{
+    border: 2px solid black;
+}
+.we-are{
+    padding-left: 20px;
+    padding-top: 10px;
+    font: italic small-caps bold 22px/2 cursive;
+}
+.we-core{
+    font: italic small-caps bold 32px cursive;
+    padding-left: 50px;
+}
+.services{
+    font: small-caps bold 20px/1 sans-serif;
 }
 .tittle-about{
     text-align: center;
@@ -140,14 +158,14 @@ label{
     font-family: "Playfair Display",serif;
   }
   .button-img1{
-    transform: translate(490px, 280px);
+    /* transform: translate(490px, 280px); */
     background-color:#564D44;
     color: #fff;
     width: 15%;
   }
   .desciritionText-about{
     font-family: 'gotham-black';
-    font-size: 38px !important;
+    font-size: 30px !important;
     line-height: normal;
     color: #525252;
     letter-spacing: 1px;
@@ -156,13 +174,14 @@ label{
     margin-top: 80px;
   }
   .desciritionText-about3{
-    margin-top: 80px;
+ 
     text-align: center;
     font: small-caps bold 35px/5 sans-serif;
+    
   }
  .desciritionColor-about{
 background-color: #E7E9EB;
-margin: 80px;
+/* margin: 80px; */
  }
  .descirition5-about{
     text-align: center;
@@ -313,23 +332,24 @@ padding-bottom: 20px;
     margin: 80px;
 }
 .button-img2{
-    transform: translate(500px, 100px);
+    /* transform: translate(500px, 100px); */
     background-color: rgb(97, 180, 228);
     color: rgb(240, 244, 247);
     width: 15%;
   }
-  ul {
+  /* ul {
     list-style: none;
   }
   
   ul li:before {
     content: '✓';
-  }
+  } */
   .desciritionText-Membership{
     font-family: 'gotham-black';
     font-size: 87px !important;
     line-height: normal;
     color: #525252;
+    text-align: center;
     /* letter-spacing: 2px; */
   }
   .desciritionTextb-Membership{
@@ -374,7 +394,7 @@ padding-bottom: 20px;
 
 /* Destination */
 .button-img3{
-    transform: translate(580px, 50px);
+    /* transform: translate(580px, 50px); */
     background-color: #3b3432;
     color: rgb(240, 244, 247);
     width: 15%;
@@ -394,7 +414,7 @@ margin-top: 30px;
 /* footer */
 
   footer.page-footer {
-    bottom: 0;
+
     color: #fff;
   }
 
@@ -402,4 +422,16 @@ margin-top: 30px;
   .mdb-color {
     background-color: #181818 !important;
   }
-  
+.icon-size{
+    padding-right: 10px;
+    font-size: 22px;
+
+}
+@media(max-width:576px){
+    .all-article{
+        padding-right: 120px;
+    }
+    .desciritionText-Membership{
+        width: auto;
+    }
+}
