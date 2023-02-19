@@ -1,5 +1,7 @@
 import React from "react";
 import './Offers.css';
+import Footer from "./Footer";
+
 
 function Offers() {
     return (
@@ -101,6 +103,7 @@ function Offers() {
                     </tbody>
                 </table>
             </div>
+            <Footer />
         </>
     );
 }

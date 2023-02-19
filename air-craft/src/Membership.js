@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Navbar";
+import Footer from "./Footer"
 
 function Membership() {
   return (
     <>
-      <Navbar />
+      
       <div className="Membership">
         <div>
           <h1 className="img-tittle">For an Extraordinary Fly</h1>
@@ -16,7 +16,7 @@ function Membership() {
             height="600"
           />
           <div className="carousel-caption">
-            <button className="button-img2">Book Now</button>
+            {/* <button className="button-img2">Book Now</button> */}
           </div>
         </div>
         <div className="circle-membership">
@@ -103,6 +103,7 @@ function Membership() {
           <input className="button buttonin-inquire" type="submit" value="Subscribe"></input></div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

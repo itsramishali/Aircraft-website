@@ -1,144 +1,162 @@
 import React from "react";
 import "./App.css";
 
-
 function Footer() {
-    return (
-        <>
-<div className="Footer">
-<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+  return (
+    <>
+      <div className="Footer mt-5">
+        <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+          <div class="container text-center text-md-left">
+            <div class="row">
+              <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+                <h5 class="font-weight-bold text-uppercase mb-4">AURA-LANKA</h5>
+                <p>
+                  Aura Airlines is a concept of conglomerate in the Airline
+                  Industry in Sri Lanka dedicating its approach mainly to
+                  Private & Business Airline, as an exclusive platform which
+                  customers can benefit from in the fields of Leisure, Corporate
+                  and VIP transport solutions, and service for both domestic and
+                  international market.
+                </p>
+                <div id="map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d7921.855178098111!2d79.9475817!3d6.8992638!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3ae250cc8213779f%3A0x4624ec10005649e3!2s949%20Udawatta%20Road%20Malabe!3m2!1d6.899104899999999!2d79.947553!5e0!3m2!1sen!2slk!4v1663602628626!5m2!1sen!2slk"
+                    width="600"
+                    height="120"
+                  ></iframe>
+                </div>
+              </div>
 
+              <hr class="clearfix w-100 d-md-none" />
 
-<div class="container text-center text-md-left">
+              <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+                <h5 class="font-weight-bold text-uppercase mb-4">
+                  Quick Links
+                </h5>
 
+                <ul class="">
+                  <li>
+                    <p>
+                      <a href="#!">HOME</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="#!">Book</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="#!">About Us</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="#!">Contact Us</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="#!">Membership</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="#!">Destination</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="#!">Offers</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="#!">Inquire</a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
 
-  <div class="row">
+              <hr class="clearfix w-100 d-md-none" />
 
+              <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+                <h5 class="font-weight-bold text-uppercase mb-4">
+                  Our Subsidiaries
+                </h5>
+                <p>Aura Lanka Gem & Museum</p>
+                <p>Aura Lanka Security</p>
+                <p>Aura Airlines</p>
+                <p>Aura Lanka Construction</p>
+                <p>Aura Lanka Enterainment</p>
+                <p>Aura Sports</p>
+                <p>Aura Lanka LLC USA</p>
+                <p>Aura Jeewa</p>
+              </div>
 
-    <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+              <hr class="clearfix w-100 d-md-none" />
 
-   
-      <h5 class="font-weight-bold text-uppercase mb-4">AURA-LANKA</h5>
-      <p>Here you can use rows and columns to organize your footer content.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
-        esse quasi,
-        veritatis totam voluptas nostrum.</p>
+              <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+                <h5 class="font-weight-bold text-uppercase ">Contact Info</h5>
 
-    </div>
-   
+                <ul class="">
+                  <li>
+                    <p>
+                      <i class="fa-solid fa-phone"></i>+(94)773333966
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <i class="fa-solid fa-user"></i> Dr.Viranjith Thambugala -
+                      Chairman
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <i class="fas fa-envelope"></i>info@Auralankaherbals.com
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <i class="fa-solid fa-map"></i>949/13 dawatta RThalangama
+                      North,Malabe
+                    </p>
+                  </li>
+                </ul>
 
-    <hr class="clearfix w-100 d-md-none" />
+                <a
+                  type="button"
+                  className="btn-floating btn-fb icon-size waves-effect waves-light"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
 
-   
-    <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+                <a
+                  type="button"
+                  className="btn-floating btn-tw icon-size waves-effect waves-light"
+                >
+                <i class="fa-brands fa-youtube"></i>
+                </a>
 
-      <h5 class="font-weight-bold text-uppercase mb-4">Quick Links</h5>
+                <a
+                  type="button"
+                  className="btn-floating btn-gplus icon-size waves-effect waves-light"
+                >
+              <i class="fa-brands fa-instagram"></i>
+                </a>
 
-      <ul class="list-unstyled">
-        <li>
-          <p>
-            <a href="#!">HOME</a>
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="#!">Events</a>
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="#!">Shop</a>
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="#!">Gallery</a>
-          </p>
-        </li>
-        <li>
-          <p>
-            <a href="#!">Charity</a>
-          </p>
-        </li>
-        
-      </ul>
+           
+              </div>
+            </div>
+          </div>
 
-    </div>
-
-
-    <hr class="clearfix w-100 d-md-none" />
-
- 
-    <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
-
-    
-      <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
-
-
-    </div>
-  
-
-    <hr class="clearfix w-100 d-md-none" />
-
-  
-    <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
-
-    
-      <h5 class="font-weight-bold text-uppercase mb-4">Our Subsidiaries</h5>
-      
-      <ul class="list-unstyled">
-        <li>
-          <p>
-            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-        </li>
-        <li>
-          <p>
-            <i class="fas fa-home mr-3"></i> Dr.Viranjith Thambugala - Chairman</p>
-        </li>
-        <li>
-          <p>
-            <i class="fas fa-envelope mr-3"></i> </p>
-        </li>
-        <li>
-          <p>
-            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-        </li>
-      </ul>
-
-  
-      <a type="button" class="btn-floating btn-fb icon-size waves-effect waves-light">
-        <i class="fab fa-facebook-f"></i>
-      </a>
- 
-      <a type="button" class="btn-floating btn-tw icon-size waves-effect waves-light">
-        <i class="fab fa-twitter"></i>
-      </a>
-
-      <a type="button" class="btn-floating btn-gplus icon-size waves-effect waves-light">
-        <i class="fab fa-google-plus-g"></i>
-      </a>
-   
-      <a type="button" class="btn-floating btn-dribbble icon-size waves-effect waves-light">
-        <i class="fab fa-dribbble"></i>
-      </a>
-
-    </div>
-
-
-  </div>
-
-
-</div>
-
-<div class="footer-copyright text-center py-3">© 2023 Copyright:
-  <a href="/"> MDBootstrap.com</a>
-</div>
-
-
-</footer>
-</div>
-        </>
-    )
+          <div class="footer-copyright text-center py-3">
+            Copyright 2022 By Aura LANKA |All Right Reserved
+          </div>
+        </footer>
+      </div>
+    </>
+  );
 }
 
 export default Footer;

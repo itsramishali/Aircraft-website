@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Navbar";
+
+import Footer from "./Footer"
 
 function Inquire() {
   return (
     <>
-      <Navbar />
+    
       <div className="Inquire">
         <h1 className="tittle-Inquire pb-5">
           <u>
@@ -80,6 +81,7 @@ function Inquire() {
           <input className="button buttonin-inquire" type="submit" value="Subscribe"></input></div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

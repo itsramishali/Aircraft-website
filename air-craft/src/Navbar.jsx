@@ -31,44 +31,37 @@ function Navbar() {
                                 <li className="nav-item  edit ">
                                     <Link className="nav-link active float-right" aria-current="page" to="/Book">Book</Link>
                                 </li>
-                                {/* <li className="nav-item edit">
-                                <Link className="nav-link dropdown-toggle active float-right"    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Aircraft Guide
-                                </Link>
-                                <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to="#">Action</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Another action</Link></li>
-                                    <li><hr className="dropdown-divider"/></li>
-                                    <li><Link className="dropdown-item" to="#">Something else here</Link></li>
-                                </ul>
-                             </li> */}
+                                
                                 <li className="nav-item dropdown active edit">
                                     <Link class="nav-link dropdown-toggle" to="/Air" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Aircraft Guide
                                     </Link>
                                     <ul className="dropdown-menu">
                                         <li><Link className="dropdown-item" to="/Air">Turbine engine helicopter</Link></li>
-                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><Link className="dropdown-item" href="#">Another action</Link></li>
                                         <li><hr className="dropdown-divider"/></li>
-                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                        <li><Link className="dropdown-item" href="#">Something else here</Link></li>
                                     </ul>
                                 </li>
-                                <li className="nav-item edit">
-                                    <Link className="nav-link active" aria-current="page" to="">About Us</Link>
-                                </li>
-                                <li className="nav-item edit">
-                                    <Link className="nav-link active" aria-current="page" to="/Contact">Contact Us</Link>
-                                </li>
-                                <li className="nav-item edit">
-                                    <Link className="nav-link active" aria-current="page" to="#">Membership</Link>
-                                </li>
-                                <li className="nav-item edit">
-                                    <Link className="nav-link active" aria-current="page" to="#">Destinations</Link>
-                                </li>
-                                <li className="nav-item edit">
-                                    <Link className="nav-link active" aria-current="page" to="/Offers">Offers</Link>
-                                </li>
-                            </ul>
+                            <li className="nav-item edit">
+                                <Link className="nav-link active" aria-current="page" to="/About us">About Us</Link>
+                            </li>
+                            <li className="nav-item edit">
+                                <Link className="nav-link active" aria-current="page" to="/Contact">Contact Us</Link>
+                            </li>
+                            <li className="nav-item edit">
+                                <Link className="nav-link active" aria-current="page" to="/Membership">Membership</Link>
+                            </li>
+                            <li className="nav-item edit">
+                                <Link className="nav-link active" aria-current="page" to="Destination">Destinations</Link>
+                            </li>
+                            <li className="nav-item edit">
+                                <Link className="nav-link active" aria-current="page" to="/Offers">Offers</Link>
+                            </li>
+                            <li className="nav-item edit">
+                                <Link className="nav-link active" aria-current="page" to="/Inquire">Inquire</Link>
+                            </li>
+                        </ul>
                         </form>
                     </div>
                 </div>

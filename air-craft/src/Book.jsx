@@ -1,5 +1,6 @@
 import React from "react";
 import "./Book.css";
+import Footer from "./Footer";
 
 
 function Book() {
@@ -131,6 +132,7 @@ function Book() {
                     <div className="col-md-3"><img className="round-img" src="https://images.squarespace-cdn.com/content/v1/5a05c910017db256055decc2/6edd37aa-a363-4cb9-a721-3f4f532788dc/Bigstock_+103020331+-+Jet+Set+Power+Lunch.jpg?format=750w" alt="" /></div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

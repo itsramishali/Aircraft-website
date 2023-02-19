@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Footer from "./Footer";
 
 function Home() {
     return (
@@ -184,7 +185,7 @@ function Home() {
 
             <h3 className="sm-heading">Articles</h3>
             <div className="row row-edit">
-                <div className="col-md-3 mx-4">
+                <div className="col-md-3 mx-4 mb-5">
                     <img
                         className="d-block w-100"
                         src="https://wallpaper.dog/large/10792407.jpg"
@@ -192,7 +193,7 @@ function Home() {
                     />
                 </div>
 
-                <div className="col-md-3  mx-4">
+                <div className="col-md-3  mx-4 mb-5">
                     <img
                         className="d-block w-100"
                         src="https://wallpaper.dog/large/10792407.jpg"
@@ -200,7 +201,7 @@ function Home() {
                     />
                 </div>
 
-                <div className="col-md-3  mx-4">
+                <div className="col-md-3  mx-4 mb-5">
                     <img
                         className="d-block w-100"
                         src="https://wallpaper.dog/large/10792407.jpg"
@@ -208,6 +209,7 @@ function Home() {
                     />
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
