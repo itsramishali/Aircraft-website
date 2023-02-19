@@ -62,13 +62,10 @@ function Home() {
             </div>
             <div className="text-part">
                 <p className="text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    <br /> Sunt numquam molestiae molestias consequuntur asperiores,
-                    <br /> voluptatibus cum vel quo omnis dolores. Lorem ipsum dolor,
-                    <br /> sit amet consectetur adipisicing elit. Blanditiis dolores
-                    architecto sunt sit! <br /> Reprehenderit quo quos, nobis vitae illum
-                    suscipit amet expedita <br /> quam incidunt, neque sunt assumenda?
-                    Est, debitis iusto.
+                    Aura Airlines is a concept conglomerate in the Airline Industry <br />
+                    in Sri Lanka which was founded in 2018 and dedicates its approach mainly <br /> to uplift Airline services solely for the benefit of the entire community. <br />
+                    Private & Business Airline, as an exclusive platform which customers <br /> can benefit from in the fields of Leisure, Corporate and VIP transport solutions, <br /> and service for both domestic and international market.
+
                 </p>
                 <div className="row row-edit" >
                     <div className="col-md-2">
@@ -94,17 +91,26 @@ function Home() {
                 </div>
                 <div className="col-md-5 mx-3">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-                        necessitatibus magnam inventore architecto enim optio voluptas nemo
-                        ipsa commodi delectus debitis tempora hic maiores, voluptatibus,
-                        tempore excepturi ducimus blanditiis? Velit natus ea consectetur
-                        rerum aliquam fugiat, minima placeat nemo? Illo! Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Voluptas nam totam quibusdam.
-                        Fuga explicabo possimus, tenetur iure, voluptates ad corporis
-                        aliquam autem aliquid ea ab maxime repellat reiciendis sequi
-                        repellendus magnam quisquam alias ut qui, recusandae exercitationem
-                        cum! Alias, sequi. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Voluptate, maxime.
+                        <li>Our Services</li>
+                        <ul>
+                            <li>Corporate VIP/VVIP Client</li>
+                            <li>Passenger Charter</li>
+                            <li>Leisure</li>
+                            <li>Aerial Work</li>
+                            <li>Branding and Advertising</li>
+                            <li>Medical Evacuation</li>
+                            <li>Special Events-Product Launches</li>
+                            <li>Flower Drops</li>
+                            <li>Banner Towing/ Flag Displays</li>
+                            <li>Wedding Photography</li>
+                            <li>Celebrations</li>
+                            <ul>
+                                <li>Anniversary Celebrations</li>
+                                <li>Birthday Celebrations</li>
+                                <li>Any other as required</li>
+                            </ul>
+
+                        </ul>
                     </p>
                 </div>
             </div>
@@ -113,17 +119,20 @@ function Home() {
             <div className="row row-edit my-5">
                 <div className="col-md-5 mx-3">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-                        necessitatibus magnam inventore architecto enim optio voluptas nemo
-                        ipsa commodi delectus debitis tempora hic maiores, voluptatibus,
-                        tempore excepturi ducimus blanditiis? Velit natus ea consectetur
-                        rerum aliquam fugiat, minima placeat nemo? Illo! Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Voluptas nam totam quibusdam.
-                        Fuga explicabo possimus, tenetur iure, voluptates ad corporis
-                        aliquam autem aliquid ea ab maxime repellat reiciendis sequi
-                        repellendus magnam quisquam alias ut qui, recusandae exercitationem
-                        cum! Alias, sequi. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Voluptate, maxime.
+                        <li>Why Aura Airlines Charter</li>
+                        <ul>
+                            Island wide Coverage <br />
+                            Anytime, Anywhere <br />
+                            Available 24/7/365 <br />
+                            Best value for money <br />
+                            Ensure Safety, Security and Privacy <br />
+                            Full of Comfort, Luxury and Convenience <br />
+                            To fly happily <br />
+                            Guaranteed customer satisfaction <br />
+                            Preeminent and Personalized Service <br />
+
+
+                        </ul>
                     </p>
                 </div>
                 <div className="col-md-5 marg mx-3">
@@ -145,18 +154,10 @@ function Home() {
                     />
                 </div>
                 <div className="col-md-5 mx-3">
+                    <li>Safety</li>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-                        necessitatibus magnam inventore architecto enim optio voluptas nemo
-                        ipsa commodi delectus debitis tempora hic maiores, voluptatibus,
-                        tempore excepturi ducimus blanditiis? Velit natus ea consectetur
-                        rerum aliquam fugiat, minima placeat nemo? Illo! Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Voluptas nam totam quibusdam.
-                        Fuga explicabo possimus, tenetur iure, voluptates ad corporis
-                        aliquam autem aliquid ea ab maxime repellat reiciendis sequi
-                        repellendus magnam quisquam alias ut qui, recusandae exercitationem
-                        cum! Alias, sequi. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Voluptate, maxime.
+                    Aura Airlines considers safety as its prime consideration and therefore has implemented safety management systems (SMS) throughout our operation both horizontally and vertically.Highly experienced crew will provide extra support with safety ensuring health and personal welfare of our valuable clients.
+
                     </p>
                 </div>
             </div>
@@ -164,18 +165,12 @@ function Home() {
             {/* 4 */}
             <div className="row row-edit my-5">
                 <div className="col-md-5 mx-3">
+                    <li>Dedication</li>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-                        necessitatibus magnam inventore architecto enim optio voluptas nemo
-                        ipsa commodi delectus debitis tempora hic maiores, voluptatibus,
-                        tempore excepturi ducimus blanditiis? Velit natus ea consectetur
-                        rerum aliquam fugiat, minima placeat nemo? Illo! Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Voluptas nam totam quibusdam.
-                        Fuga explicabo possimus, tenetur iure, voluptates ad corporis
-                        aliquam autem aliquid ea ab maxime repellat reiciendis sequi
-                        repellendus magnam quisquam alias ut qui, recusandae exercitationem
-                        cum! Alias, sequi. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Voluptate, maxime.
+                    Our product reflects and improves the quality of life with the mission 
+                    of the airline to make air travel an integral part of the tourism industry
+                    and Aura Airlines to be the most flexible, reliable, and safest mode of
+                    transport for domestic air travel among tourists, corporate clients, and locals.
                     </p>
                 </div>
                 <div className="col-md-5 marg mx-3">

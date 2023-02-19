@@ -59,18 +59,61 @@ function Book() {
                         <div className="edit-margin">
                             <label>Departure City</label><br />
                             <select className="b-Input w-50">
-                                <option>Lahore</option>
-                                <option>Islamabad</option>
-                                <option>Karachi</option>
+                                <option>Galle</option>
+                                <option>Tangalle</option>
+                                <option>Koggala</option>
+                                <option>Yala</option>
+                                <option>Wilpattu</option>
+                                <option>Udawalawe</option>
+                                <option>Trincomalee</option>
+                                <option>Batticaloa</option>
+                                <option> Arugam Bay</option>
+                                <option>Jaffna</option>
+                                <option>Vavuniya</option>
+                                <option>NuwraEliya</option>
+                                <option>Kandy</option>
+                                <option> Norwood</option>
+                                <option>Sigiriya</option>
+                                <option>Anuradhapura</option>
+                                <option>Kataragama</option>
                             </select>
                         </div>
 
                         <div className="edit-margin">
                             <label>Destination City</label><br />
                             <select className="b-Input w-50">
-                                <option>Lahore</option>
-                                <option>Islamabad</option>
-                                <option>Karachi</option>
+                                <option>Galle</option>
+                                <option>Tangalle</option>
+                                <option>Koggala</option>
+                                <option>Yala</option>
+                                <option>Wilpattu</option>
+                                <option>Udawalawe</option>
+                                <option>Trincomalee</option>
+                                <option>Batticaloa</option>
+                                <option>Arugam Bay</option>
+                                <option>Jaffna</option>
+                                <option>Vavuniya</option>
+                                <option>NuwraEliya</option>
+                                <option>Kandy</option>
+                                <option>Norwood</option>
+                                <option>Sigiriya</option>
+                                <option>Anuradhapura</option>
+                                <option>Kataragama</option>
+                                <option>Koggala</option>
+                                <option>Mattala</option>
+                                <option>Mattala/Weerawila</option>
+                                <option>Anuradhapura/Palavi</option>
+                                <option>Mattala/Ratnapura</option>
+                                <option>Minneriya</option>
+                                <option>Ampara/Minneriya</option>
+                                <option>Ampara</option>
+                                <option>Palali</option>
+                                <option>Diyatalawa</option>
+                                <option>Kegalle/Digana</option>
+                                <option>Ginigatthena</option>
+                                <option>Minneriya/Dambulla</option>
+                                <option>Vavuniya/Sigiriya</option>
+                                <option>Mattala/Weerawila</option>
                             </select>
                         </div>
 

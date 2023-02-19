@@ -1,55 +1,63 @@
-*{
+* {
     overflow-x: hidden;
 }
-p{
+
+p {
     text-align: justify;
-    padding: 0px 10px 10px 10px ;
+    padding: 0px 10px 10px 10px;
 }
-.row-edit{
+
+.row-edit {
     justify-content: center;
     margin: auto;
 }
-.footer{
+
+.footer {
     text-align: center;
 }
-.tittle{
+
+.tittle {
     font-family: 'gotham-black';
 }
-.firstInput{
+
+.firstInput {
     margin-right: 10px;
     width: 20%;
     padding: 1em;
     background: #fff;
-    border: 1px solid rgba(0,0,0,.12);
+    border: 1px solid rgba(0, 0, 0, .12);
     font-family: inherit;
     font-size: 15px;
     line-height: normal;
     outline: none;
-    
+
 }
-.lastInput{
+
+.lastInput {
     margin-right: 10px;
     width: 20%;
     padding: 1em;
     background: #fff;
-    border: 1px solid rgba(0,0,0,.12);
-    font-family: inherit;
-    font-size: 15px;
-    line-height: normal;
-    outline: none;
-}
-.emailInput{
-    margin-right: 10px;
-    width: 20%;
-    padding: 1em;
-    background: #fff;
-    border: 1px solid rgba(0,0,0,.12);
+    border: 1px solid rgba(0, 0, 0, .12);
     font-family: inherit;
     font-size: 15px;
     line-height: normal;
     outline: none;
 }
-.buttonInput{
+
+.emailInput {
+    margin-right: 10px;
+    width: 20%;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .12);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: normal;
+    outline: none;
+}
+
+.buttonInput {
     /* width: 12% ; */
     padding: 12px;
     background: #fff;
@@ -57,11 +65,13 @@ p{
     font-size: 15px;
     font-family: "eurostile-condensed";
 }
-.buttonInput:hover{
+
+.buttonInput:hover {
     background-color: black;
     color: white;
 }
-.p{
+
+.p {
     margin: 28px 0;
     padding: 0;
     font-size: 13px !important;
@@ -69,143 +79,170 @@ p{
     color: #525252;
     letter-spacing: 1px;
 }
-.mail{
+
+.mail {
     letter-spacing: 1px;
     cursor: pointer;
 }
-.navFooter{
+
+.navFooter {
     color: black;
     font: 1em sans-serif;
     font-size: 18px !important;
     letter-spacing: 2px;
 }
-.navFooter:hover{
+
+.navFooter:hover {
     color: #525252;
 }
-.main-heading{
-    font-family: Arial,Helvetica,sans-serif !important;
-    font-weight:  700!important;
+
+.main-heading {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
     letter-spacing: 0.02em !important;
     text-align: center;
     margin: 13px 0px 13px 0px;
 }
-.sm-heading{
+
+.sm-heading {
     text-align: center;
-    font-family: Arial,Helvetica,sans-serif !important;
-    font-weight:  700!important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 700 !important;
     margin: 50px 0px 50px 0px;
 }
-label{
-    font-family: Arial,Helvetica,sans-serif;
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     letter-spacing: 0em;
     line-height: 1.6em;
 }
-.book-part{
+
+.book-part {
     margin: auto;
     width: 80%;
 }
-.b-Input{
+
+.b-Input {
     padding: 0.5em;
     background: #fff;
-    border: 1px solid rgba(0,0,0,.12);
+    border: 1px solid rgba(0, 0, 0, .12);
     font-family: inherit;
     font-size: 15px;
     line-height: normal;
-} 
-.edit-margin{
+}
+
+.edit-margin {
     margin-top: 30px;
 }
-.text-part{
+
+.text-part {
     margin: 100px 0px 100px 0px;
 }
 
 /* ------About */
-.About{
+.About {
     overflow: hidden;
     margin: 80px;
 }
-.tittle-about{
+
+.tittle-about {
     text-align: center;
     padding-top: 20px;
     font: small-caps bold 44px/1 sans-serif;
 }
+
 .img-tittle {
     /* color: white; */
     position: absolute;
     font-size: 3.8em;
     transform: translate(20px, 50px);
-    font-family: "Playfair Display",serif;
-  }
-  .button-img1{
+    font-family: "Playfair Display", serif;
+}
+
+.button-img1 {
     transform: translate(490px, 280px);
-    background-color:#564D44;
+    background-color: #564D44;
     color: #fff;
     width: 15%;
-  }
-  .desciritionText-about{
+}
+
+.desciritionText-about {
     font-family: 'gotham-black';
     font-size: 38px !important;
     line-height: normal;
     color: #525252;
     letter-spacing: 1px;
-  }
-  .descirition{
-    margin-top: 80px;
-  }
-  .desciritionText-about3{
-    margin-top: 80px;
-    text-align: center;
-    font: small-caps bold 35px/5 sans-serif;
-  }
- .desciritionColor-about{
-background-color: #E7E9EB;
-margin: 80px;
- }
- .descirition5-about{
-    text-align: center;
-    font: small-caps bold 35px/5 sans-serif;
- }
+}
 
- /* -----Inquire */
- .Inquire{
+.descirition {
+    margin-top: 80px;
+}
+
+.desciritionText-about3 {
+    margin-top: 80px;
+    text-align: center;
+    font: small-caps bold 35px/5 sans-serif;
+}
+
+.desciritionColor-about {
+    background-color: #E7E9EB;
+    margin: 80px;
+}
+
+.descirition5-about {
+    text-align: center;
+    font: small-caps bold 35px/5 sans-serif;
+}
+
+/* -----Inquire */
+.Inquire {
     overflow: hidden;
     margin: 80px;
- }
- .tittle-Inquire{
+}
+
+.tittle-Inquire {
     text-align: center;
     padding-top: 20px;
-    font: small-caps bold 44px/1 sans-serif;  
- }
- .phone-inquire{
+    font: small-caps bold 44px/1 sans-serif;
+}
+
+.phone-inquire {
     padding-top: 50px;
     font: small-caps bold 20px/1 sans-serif;
- }
- .phoneNo-inquire{
+}
+
+.phoneNo-inquire {
     font: italic small-caps bold 18px/0 cursive;
- }
- .email-inquire{
+}
+
+.email-inquire {
     padding-top: 50px;
     font: small-caps bold 20px/1 sans-serif;
- }
- .emailName-inquire{
+}
+
+.emailName-inquire {
     font: italic small-caps bold 18px/0 cursive;
- }
- .Immediate{
+}
+
+.Immediate {
     margin-top: 90px;
-    font-family: "Playfair Display",serif;
- }
- .headinng-Inquire{
+    font-family: "Playfair Display", serif;
+}
+
+.headinng-Inquire {
     text-align: center;
     padding-top: 50px;
-    font: small-caps bold 44px/1 sans-serif;    
- }
- .inputs-Inquire{
+    font: small-caps bold 44px/1 sans-serif;
+}
+
+.inputs-Inquire {
     border: 2px solid black;
- }
-.firstInput-Inquire{
+}
+
+.firstInput-Inquire {
     margin-right: 10px;
     width: 40%;
     padding: 1em;
@@ -217,7 +254,8 @@ margin: 80px;
     line-height: normal;
     outline: none;
 }
-.lastInput-Inquire{
+
+.lastInput-Inquire {
     margin-right: 10px;
     width: 40%;
     padding: 1em;
@@ -228,9 +266,10 @@ margin: 80px;
     font-size: 15px;
     line-height: normal;
     outline: none;
-    margin-bottom:40px ;
+    margin-bottom: 40px;
 }
-.emailInput-Inquire{
+
+.emailInput-Inquire {
     margin-right: 10px;
     width: 85%;
     padding: 1em;
@@ -242,7 +281,8 @@ margin: 80px;
     line-height: normal;
     outline: none;
 }
-.messageInput-Inquire{
+
+.messageInput-Inquire {
     margin-right: 10px;
     width: 85%;
     padding: 5em;
@@ -253,9 +293,10 @@ margin: 80px;
     font-size: 15px;
     line-height: normal;
     outline: none;
-    margin-bottom:40px ;
+    margin-bottom: 40px;
 }
-.emailInput-Inquire{
+
+.emailInput-Inquire {
     margin-right: 10px;
     width: 85%;
     padding: 1em;
@@ -267,29 +308,31 @@ margin: 80px;
     line-height: normal;
     outline: none;
 }
-.name-Inquire{
+
+.name-Inquire {
     padding-left: 20px;
     padding-bottom: 20px;
     color: gray;
-    font: small-caps bold 24px sans-serif;   
+    font: small-caps bold 24px sans-serif;
 }
-.reached-inquire{
+
+.reached-inquire {
     font: small-caps bold 20px/1 sans-serif;
     margin-left: 40px;
 }
-.button-inquire{
-text-align: center;
-padding-top: 30px;
-padding-bottom: 20px;
 
-
+.button-inquire {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
-.buttonin-inquire:hover{
+
+.buttonin-inquire:hover {
     background-color: black;
     color: white;
 }
 
-.buttonin-inquire{
+.buttonin-inquire {
     width: 12%;
     padding: 12px;
     background: #fff;
@@ -297,53 +340,61 @@ padding-bottom: 20px;
     font-size: 15px;
     font-family: "eurostile-condensed";
 }
-.headinng0-Inquire{
+
+.headinng0-Inquire {
     text-align: center;
     padding-top: 30px;
-    font: small-caps bold 24px/1 sans-serif;    
+    font: small-caps bold 24px/1 sans-serif;
 }
-.firstForm-inquire{
+
+.firstForm-inquire {
     background-color: #FCFCFC;
 }
 
 
 /* --------membership */
-.Membership{
+.Membership {
     overflow: hidden;
     margin: 80px;
 }
-.button-img2{
+
+.button-img2 {
     transform: translate(500px, 100px);
     background-color: rgb(97, 180, 228);
     color: rgb(240, 244, 247);
     width: 15%;
-  }
-  ul {
+}
+
+/* ul {
     list-style: none;
-  }
-  
-  ul li:before {
+}
+
+ul li:before {
     content: '✓';
-  }
-  .desciritionText-Membership{
+} */
+
+.desciritionText-Membership {
     font-family: 'gotham-black';
     font-size: 87px !important;
     line-height: normal;
     color: #525252;
     /* letter-spacing: 2px; */
-  }
-  .desciritionTextb-Membership{
+}
+
+.desciritionTextb-Membership {
     border: 2px solid;
     width: 50%;
     height: 500px;
-  }
-  .hometown{
+}
+
+.hometown {
     padding-top: 50px;
     padding-left: 35px;
-    font: small-caps bold 20px/1 sans-serif; 
+    font: small-caps bold 20px/1 sans-serif;
     padding-bottom: 20px;
-  }
-  .countryInput{
+}
+
+.countryInput {
     margin-right: 10px;
     width: 83%;
     padding: 3px;
@@ -353,8 +404,9 @@ padding-bottom: 20px;
     font-size: 15px;
     line-height: normal;
     outline: none;
-  }
-  .emptyInput{
+}
+
+.emptyInput {
     margin-right: 10px;
     width: 85%;
     padding: 3px;
@@ -366,40 +418,43 @@ padding-bottom: 20px;
     font-size: 15px;
     line-height: normal;
     outline: none;
-  }
-.circle-membership{
- border-radius: 25px;
- border:2px #525252;
+}
+
+.circle-membership {
+    border-radius: 25px;
+    border: 2px #525252;
 }
 
 /* Destination */
-.button-img3{
+.button-img3 {
     transform: translate(580px, 50px);
     background-color: #3b3432;
     color: rgb(240, 244, 247);
     width: 15%;
 }
-.Destination{
+
+.Destination {
     overflow: hidden;
 }
-.article-destination{
-margin-left: 150px;
-margin-top: 30px;
+
+.article-destination {
+    margin-left: 150px;
+    margin-top: 30px;
 }
-.all-article{
+
+.all-article {
     text-align: center;
     background-color: #DDE3E5;
 }
 
 /* footer */
 
-  footer.page-footer {
+footer.page-footer {
     bottom: 0;
     color: #fff;
-  }
+}
 
-  
-  .mdb-color {
+
+.mdb-color {
     background-color: #181818 !important;
-  }
-  
+}
